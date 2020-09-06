@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <navbar />
-
-
+    <video-intro />
+    <recent-blogs />
 
     <my-footer />
   </div>
@@ -12,7 +12,10 @@
 // @ is an alias to /src
 import Navbar from '@/components/Navbar';
 import MyFooter from '@/components/Footer';
+import RecentBlogs from '@/components/RecentBlogs';
+import VideoIntro from '@/components/VideoIntro';
 
+                         
 import {
   
 } from 'mdbvue'
@@ -21,7 +24,9 @@ export default {
   name: 'home',
   components: {
     Navbar,
-    MyFooter
+    MyFooter,
+    VideoIntro,
+    RecentBlogs,
   },
   data () {
     return {

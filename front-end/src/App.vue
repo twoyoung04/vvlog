@@ -11,7 +11,6 @@
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-size: 16px;
   // text-align: center;
-  color: #2c3e50;
   zoom: 0;
   overflow: auto;
   margin: 0;
