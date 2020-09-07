@@ -74,7 +74,7 @@
 <script>
   import { mdbContainer, mdbRow, mdbCol, mdbMask, mdbView, mdbBtn } from 'mdbvue';
   export default {
-    name: 'BlogPage',
+    name: 'RecentBlogs',
     components: {
       mdbContainer,
       mdbRow,

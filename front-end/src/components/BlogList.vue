@@ -72,17 +72,14 @@
 </template>
 
 <script>
-  import { mdbContainer, mdbRow, mdbCol, mdbCard, mdbCardBody, mdbMask, mdbIcon, mdbView, mdbBtn } from 'mdbvue';
+  import { mdbContainer, mdbRow, mdbCol, mdbMask, mdbView, mdbBtn } from 'mdbvue';
   export default {
-    name: 'BlogPage',
+    name: 'BlogList',
     components: {
       mdbContainer,
       mdbRow,
       mdbCol,
-      mdbCard,
-      mdbCardBody,
       mdbMask,
-      mdbIcon,
       mdbView,
       mdbBtn
     }
